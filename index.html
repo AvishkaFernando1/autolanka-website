@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoLanka - Premium Vehicle Sales in Sri Lanka</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Auto<span>Lanka</span></div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#why-choose-us">Why Us</a>
+                <a href="#about">About</a>
+                <a href="#locations">Locations</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="glow">Find Your Dream Vehicle in Sri Lanka</h1>
+            <p>Discover the best deals on premium vehicles across the island</p>
+            <a href="#about" class="cta-button">See About</a>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose-us" class="why-choose-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose <span>AutoLanka</span></h2>
+            <p class="section-subtitle">Your trusted partner for premium vehicle sales in Sri Lanka</p>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Verified Vehicles</h3>
+                    <p>Every vehicle undergoes rigorous inspection and verification to ensure quality and authenticity.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Best Prices</h3>
+                    <p>Competitive pricing with transparent costs. No hidden fees, just honest deals you can trust.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our dedicated team is available round the clock to assist you with any queries or concerns.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Warranty Coverage</h3>
+                    <p>Comprehensive warranty options available on all vehicles for your peace of mind.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Easy Trade-In</h3>
+                    <p>Trade in your old vehicle hassle-free with our quick valuation and exchange process.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3>Flexible Financing</h3>
+                    <p>Multiple financing options with competitive rates to make your dream vehicle affordable.</p>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="cta-section">
+                <h3>Ready to Find Your Perfect Vehicle?</h3>
+                <p>Join thousands of satisfied customers who found their dream vehicles with AutoLanka</p>
+                <a href="#contact" class="cta-button">Get Started Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About <span>Us</span></h2>
+                    <p>AutoLanka is Sri Lanka's premier vehicle sales platform, connecting buyers with trusted sellers across the island. With our extensive network and transparent pricing, we make buying your dream vehicle a seamless experience.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="1000">0</span>
+                            <span class="stat-label">Vehicles</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="50">0</span>
+                            <span class="stat-label">Locations</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="10000">0</span>
+                            <span class="stat-label">Happy Customers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="assets/images/about.jpg" alt="Luxury Car">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section id="locations" class="locations-section">
+        <div class="container">
+            <h2 class="section-title">Our <span>Locations</span></h2>
+            <div class="map-container">
+                <div id="map" class="map">
+                    <!-- Interactive Map using Leaflet.js -->
+                    <iframe 
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=79.8400%2C6.9000%2C79.9000%2C6.9500&layer=mapnik&marker=6.9271,79.8612" 
+                        style="border: none; width: 100%; height: 100%;"
+                        allowfullscreen
+                        loading="lazy">
+                    </iframe>
+                </div>
+                <div class="location-list">
+                    <h3>Visit Our Showrooms</h3>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Colombo</h4>
+                            <p>123 Galle Road, Colombo 03</p>
+                            <p>Open: 9:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Kandy</h4>
+                            <p>456 Peradeniya Road, Kandy</p>
+                            <p>Open: 9:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Galle</h4>
+                            <p>789 Matara Road, Galle</p>
+                            <p>Open: 9:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Us</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-phone"></i> +94 11 234 5678</p>
+                    <p><i class="fas fa-envelope"></i> info@autolanka.lk</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Galle Road, Colombo 03, Sri Lanka</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Phone Number">
+                    <select required>
+                        <option value="" disabled selected>Interested In</option>
+                        <option value="car">Cars</option>
+                        <option value="suv">SUVs</option>
+                        <option value="van">Vans</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AutoLanka</h3>
+                    <p>Your trusted partner in finding the perfect vehicle in Sri Lanka.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#vehicles">Vehicles</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#locations">Locations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get updates on new arrivals and special offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 AutoLanka. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>

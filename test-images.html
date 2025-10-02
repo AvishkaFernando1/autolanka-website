@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Images</title>
+    <style>
+        body {
+            background: #333;
+            padding: 20px;
+        }
+        .test-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .test-image {
+            background: #222;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .test-image img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            border-radius: 5px;
+        }
+        .test-image h3 {
+            color: white;
+            margin: 10px 0 5px;
+            font-size: 14px;
+        }
+        .status {
+            color: #ffd700;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: white; text-align: center;">Testing Vehicle Images</h1>
+    <div class="test-container">
+        <div class="test-image">
+            <img src="assets/images/toyota-allion.jpg" alt="Toyota Allion" onerror="this.style.background='red'">
+            <h3>Toyota Allion</h3>
+            <p class="status">Path: assets/images/toyota-allion.jpg</p>
+        </div>
+        <div class="test-image">
+            <img src="assets/images/honda-civic.jpg" alt="Honda Civic" onerror="this.style.background='red'">
+            <h3>Honda Civic</h3>
+            <p class="status">Path: assets/images/honda-civic.jpg</p>
+        </div>
+        <div class="test-image">
+            <img src="assets/images/land-cruiser.jpg" alt="Land Cruiser" onerror="this.style.background='red'">
+            <h3>Land Cruiser</h3>
+            <p class="status">Path: assets/images/land-cruiser.jpg</p>
+        </div>
+        <div class="test-image">
+            <img src="assets/images/montero-sport.jpg" alt="Montero Sport" onerror="this.style.background='red'">
+            <h3>Montero Sport</h3>
+            <p class="status">Path: assets/images/montero-sport.jpg</p>
+        </div>
+        <div class="test-image">
+            <img src="assets/images/hiace.jpg" alt="Hiace" onerror="this.style.background='red'">
+            <h3>Hiace</h3>
+            <p class="status">Path: assets/images/hiace.jpg</p>
+        </div>
+        <div class="test-image">
+            <img src="assets/images/caravan.jpg" alt="Caravan" onerror="this.style.background='red'">
+            <h3>Caravan</h3>
+            <p class="status">Path: assets/images/caravan.jpg</p>
+        </div>
+    </div>
+    <p style="color: white; text-align: center; margin-top: 20px;">
+        If images show red background, they failed to load. Check the console for errors.
+    </p>
+</body>
+</html>
